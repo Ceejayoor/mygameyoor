@@ -4,14 +4,16 @@ const userChoiceDisplay = document.getElementById("user-choice");
 
 const resultDisplay = document.getElementById("result");
 
+const userName = document.getElementById("username");
+const password = document.getElementById("password");
+const submit = document.getElementById("submit");
+const paragraph = document.getElementById("paragraph");
+
 const pressed = document.querySelectorAll(".btn");
 let userChoice;
 let randomChoice;
 
-let userName = document.getElementById("username");
-const password = document.getElementById("password");
-const submit = document.getElementById("submit");
-let paragraph = document.getElementById("paragraph");
+
 
 
 
