@@ -8,6 +8,12 @@ const pressed = document.querySelectorAll(".btn");
 let userChoice;
 let randomChoice;
 
+let userName = document.getElementById("username");
+const password = document.getElementById("password");
+const submit = document.getElementById("submit");
+let paragraph = document.getElementById("paragraph");
+
+
 
 pressed.forEach(item => item.addEventListener("click", (e) => {
   userChoice = e.target.id;
@@ -57,4 +63,14 @@ result = "You lose!!"
 }
 resultDisplay.innerHTML = result;
 
+}
+
+
+submit.onclick = function(){
+    if(userName.value === "ceejayoor123"){
+        paragraph.innerHTML = "https://sites.google.com/view/dancestreetified/members-only";
+    }
+    else if(userName.value === "chijioke123"){
+        paragraph.innerHTML = "https://sites.google.com/view/dancestreetified/topsecret-members";
+    }
 }
