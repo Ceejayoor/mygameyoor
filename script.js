@@ -69,10 +69,13 @@ resultDisplay.innerHTML = result;
 
 
 submit.onclick = function(){
-    if(userName.value === "ceejayoor123"){
-        paragraph.innerHTML = "https://sites.google.com/view/dancestreetified/members-only";
+    if(userName.value === "stephen" && password.value === "stephen123"){
+        paragraph.innerHTML = "https://sites.google.com/view/bedrockcollegeschool/jss1/stephen-jaiyesimi";
     }
-    else if(userName.value === "chijioke123"){
-        paragraph.innerHTML = "https://sites.google.com/view/dancestreetified/topsecret-members";
+    else if(userName.value === "rita" && password.value === "rita123"){
+        paragraph.innerHTML = "https://sites.google.com/view/bedrockcollegeschool/jss1/rita-sina";
+    }
+    else if(userName.value === "emeka" && password.value === "emeka123"){
+        paragraph.innerHTML = "https://sites.google.com/view/bedrockcollegeschool/jss1/emeka-azikiwe";
     }
 }
